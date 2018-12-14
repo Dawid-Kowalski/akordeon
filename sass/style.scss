@@ -39,3 +39,20 @@ section {
 		}
 	}
 }
+
+.accordion-jquery-div {
+	display: none;
+}
+
+.accordion-jquery {
+	border: 1px solid #bbb;
+
+	h3 {
+		background-color: #ddd;
+		margin: 0;
+		padding: 5px;
+		border: 1px solid #bbb;
+		border-bottom: none;
+		cursor: pointer;
+	}
+}

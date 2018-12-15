@@ -17,10 +17,13 @@ function removeAllAciveClass() {
 }
 
 $(document).ready(function(){
+
+	$(".accordion-jquery-div:first").show();
+
     $(".accordion-jquery-h3").click(function(){
-    	$(this).next().toggle("slow","linear");
-        //$(this).addClass("active");
-        //$(this).siblings().removeClass("active");
+    	$(this).siblings(".accordion-jquery-div").hide();
+    	$(this).next().toggle("blind",500);
     });
+
 });
 
